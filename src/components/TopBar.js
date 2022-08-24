@@ -13,7 +13,7 @@ export default function TopBar() {
                 <Navbar.Collapse id="basic-navbar-nav" style={{flexDirection:"row-reverse"}}>
                     <Nav className="mr-auto"></Nav>
                     <Nav style={{padding: "20px 40px 20px 40px", lineHeight: "26px", fontWeight: "bolder", display:"flex"}} >
-                        <Nav.Link style={{color: "#343538", margin: "0 22px", fontSize:"18px"}} href="#LogIn">Log In</Nav.Link>
+                        <Nav.Link style={{color: "#343538", margin: "0 22px", fontSize:"18px"}} href="#LogIn">Log in</Nav.Link>
                         <Button variant="success" style={{fontSize: "18px", borderRadius:"20px", border:"none", backgroundColor:"#0AAD0A", fontWeight:"bold"}}>Sign up</Button>{' '}
                     </Nav>
                 </Navbar.Collapse>
@@ -21,3 +21,4 @@ export default function TopBar() {
      
     )
 }
+
